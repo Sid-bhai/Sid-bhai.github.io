@@ -1,5 +1,9 @@
 import Image from 'next/image'
-import { Footer, Hero, Header, Projects } from '../components'
+import { Inter } from 'next/font/google'
+import { Hero, Header, Footer, Projects } from '../components'
+
+const inter = Inter({ subsets: ['latin'] })
+
 export default function Home() {
   return (
     <>
